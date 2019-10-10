@@ -1,0 +1,11 @@
+- Entra en tu Cpanel y entra en phpmyadmin, selecciona la base de datos que usaras (puede ser la misma de faucetbox) a continuacion selecciona IMPORTAR y selecciona el archivo estructura.sql y pulsa importar.
+- Descomprime el zip y copia la carpeta rotator en la raiz de tu servidor
+- Si tienes una faucet de faucetbox copia y pega el config.php de tu faucet en la carpeta rotator (sobreescribelo).
+- Si no posees una faucet configura el config.php con los datos de tu servidor de base de datos
+- En estos momentos ya deberia esta funcional el rotador, no olvides entrar en tu panel de administrador con la contraseña 1234 y asegurate de cambiarla por una mas segura.
+- Ya puedes empezar a añadir tus faucets (recuerda que sea un enlace de referido).
+
+
+*** Para reiniciar la contraseña en caso de perdida ejecuta la consulta siguiente en phpmyadmin (habiendo seleccionado previamente la base de datos, despues presiona SQL en el menu de arriba y pega la siguiente consulta:
+
+UPDATE rotator_config SET value = '$1$/PXNHx15$wqBnr68K355BeM09oyh7H/' WHERE name = 'passw';
