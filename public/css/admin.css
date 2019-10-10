@@ -1,0 +1,19 @@
+*{font-family: 'Open Sans'}
+html, body {height: 100%;padding:0;margin:0;}
+body{background-color:#1C7077}
+body > header {padding: 5px 0;}
+.button{color:white;text-decoration: none;outline: 0;padding: 5px}
+.button:active{background-color: #777}
+.button:hover{background-color: #555}
+.content{margin: 20px auto;width: 720px;padding: 12px}
+.reports, .config{display: none}
+iframe{border:none;border-top: 1px solid black;display: none}
+#id_faucet{background-color: #DBDBDB !important}
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: none;
+}
+.sky-form{margin: 0 0 5px 0 !important}

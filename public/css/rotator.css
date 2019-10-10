@@ -1,0 +1,63 @@
+*{font-family: 'Open Sans'}
+html, body {height: 100%;padding:0;margin:0;}
+body{background-color:#1C7077}
+#frame{border:none;}
+.control-left, .control-right{margin: 6px}
+.control-left {float: left;}
+.control-right{float: right;}
+
+.container {
+   height: 100%;
+   overflow: hidden;
+}
+.left {
+    width: 300px;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+.right {
+    float: none; /* not needed, just for clarification */
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+}
+.horizontal-ads{margin: 0 5px;text-align: center}
+.report {position: absolute;left:0; right:0; margin:auto;display: none;
+background:#CCC;width: 650px;padding: 15px;box-shadow: 0px 0px 8px #333;z-index: 1;}
+.report table {width: 100%}
+.report input[type="text"], .report textarea{width: 100%}
+.report textarea {height: 150px}
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: none;
+}
+.login_form{width: 600px;margin: 2% auto 0 auto}
+.banner {display: inline-block;}
+/* ----------------------- */
+.sky-form .button {
+    background-color: #1C7077 !important;
+}
+/* Colores rotador */
+.button, .order-button {
+  background:  #1C7077;
+  color:#fff;
+  padding:6px;
+  font-family:'Helvetica Neue',sans-serif;
+  font-size:16px;
+  text-decoration: none;
+  outline: 0;
+  margin: 1px;
+  text-align: center;
+  text-shadow: 0 2px 2px #454545;
+  border: 0;
+  cursor: pointer;
+}
+
+.button:hover, .order-button:hover {background-color: #124F54;color: #57E4F0;}
+.button:active, .order-button:active {background-color: #333;}
+.order-button-selected{color: #57E4F0; background-color: #124F54;}
+.control-text{color: #57E4F0}
+body > header {background-color: #293033;color: #fff;display:inline-block;width: 100%;margin-bottom: 5px;border-bottom: 1px solid white}

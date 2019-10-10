@@ -1,0 +1,4 @@
+.list {position: absolute;display: none}
+/* Tabla */
+.list {margin:2%; box-shadow: 0px 0px 8px #333;border-radius: 10px;width: 960px} 
+tr .faucet-link {text-decoration: none; color:#088648; border-bottom: 1px solid #088648} /* Enlace a la faucet */
